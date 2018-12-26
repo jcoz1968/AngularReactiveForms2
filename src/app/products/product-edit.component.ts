@@ -16,7 +16,7 @@ import { GenericValidator } from '../shared/generic-validator';
 })
 export class ProductEditComponent implements OnInit, AfterViewInit, OnDestroy {
   @ViewChildren(FormControlName, { read: ElementRef }) formInputElements: ElementRef[];
-
+  // Just watched stuff
   pageTitle = 'Product Edit';
   errorMessage: string;
   productForm: FormGroup;
